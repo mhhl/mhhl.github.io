@@ -1,16 +1,13 @@
 body {
     margin: 0;
-    background-color: rgb(243, 235, 235);
-    height: 1000px;
     font-family: 'Titillium Web' ;
-    
+    background-color:rgb(255, 248, 248);
 }
 
 
 #titulo{
-    margin: 8px 0 0 0;
-    font-size: 25px;
-    font-family: 'Titillium Web' ;
+    margin: 0;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -19,10 +16,11 @@ body {
 }
 
 .dropbtn {
-    background-color: rgba(170, 60, 50, 0.9);
+    background-color:rgba(170, 60, 50, 0.9);
     color: white;
-    padding: 10px 35px 0px 35px;
-    font-size: 2rem;
+    min-width: 500px;
+    padding: 2px 50px;
+    font-size: 1.5rem;
     border: none;
     cursor: pointer;
     line-height: 30px;
@@ -41,7 +39,7 @@ body {
   
   .dropdown-content {
     display: none;
-    width: 533px;
+    width: 500px;
     position: inherit;
     background-color: rgba(248, 242, 242, 0.8);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -52,7 +50,7 @@ body {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     display: block;
   }
   
@@ -70,9 +68,8 @@ body {
   }
   .cuadro2{
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     width: 400px;
-    height: 100px; 
     float: right;
 }
 .cuadro2 p{
@@ -82,7 +79,7 @@ body {
 }
 
 .contactImg{
-    margin-right: 100px;  
+    margin-right: 50px;  
     padding-left: 10px; 
     max-width: 25px; 
     vertical-align: middle;
@@ -95,7 +92,7 @@ body {
 
 #img1{
     display: block;
-    width: 70%;
+    width: 91.58%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0; 
@@ -104,13 +101,11 @@ body {
 
 #intro{
     text-align: center;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.5rem;
-    margin-top: 0;
     padding: 10px;
-    background-color: rgb(255, 213, 213);
+    width: 90%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    background-color: rgb(255, 233, 233);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -146,12 +141,10 @@ h2{
     float: right;
 }
 
-td{
-    width: 70%;
-}
+
 
 div.seccion div{
-    background-color: rgb(255, 213, 213);
+    background-color: rgb(255, 233, 233);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     width: 90%;
     display: block;
@@ -212,7 +205,25 @@ div.seccion div{
     width: 60%;
     padding-left: 20px;
     font-size: 1.5rem;
-    background-color: rgb(255, 213, 213);
+    background-color: rgb(255, 233, 233);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+.footer{
+    margin-top: 50px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+.footer table{
+    width: 100%;
+}
+.footer table td{
+    width: 50%;
+}
+.footer table td:first{
+    width: 40%;
+}
+.footer table td a{
+    margin-left: 40px;
+}
